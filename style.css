@@ -1,0 +1,79 @@
+html {
+  font-size: 62.5%;
+
+}
+
+body {
+  font-size: 16px;
+  background: rgb(16, 69, 14);
+  background: linear-gradient(180deg, rgba(16, 69, 14, 1) 0%, rgba(30, 125, 27, 1) 100%);
+}
+
+.display {
+  color: #1a1423;
+  padding: 1rem;
+  text-align: end;
+  display: flex;
+  font-size: 7rem;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  height: 10rem;
+  background-color: #96e072;
+  border-radius: 2rem;
+}
+
+.conteiner {
+  border-radius: 30px;
+  height: 550px;
+  width: fit-content;
+  padding: 3rem;
+  background-color: #058c42;
+  margin: auto;
+  box-shadow: 0px 0px 4px 6px rgba(0, 0, 0, 0.69);
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 4rem;
+  width: 10rem;
+  height: 10rem;
+  color: white;
+  background-color: #0d2818;
+  border-radius: 50%;
+  margin: 0.5rem;
+  border: none;
+}
+
+.calculadora {
+  height: 15rem;
+}
+
+.F2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.F3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.F4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.F5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.operador {
+  background-color: #16db65;
+  color: black;
+}
+
+.num {
+  background-color: #04471c;
+  ;
+}
